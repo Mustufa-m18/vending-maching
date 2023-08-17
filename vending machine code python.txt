@@ -1,0 +1,59 @@
+print("Welcome User")
+i = int(input("Enter your Money: "))
+print("Your Balance", i)
+print("The things Available")
+product = ["apple: '20' ", "chocolate: '30'", "biscuit: '40'", "soda: '10'",]
+for color in product:
+  print(color)
+
+item= input("Enter Your Item:")
+apple = "apple"
+chocolate = "chocolate" 
+soda = "soda"
+biscuit = "biscuit" 
+yes = "yes"
+no = "no"
+
+if (item == apple):
+  t = int(input("How Many? "))
+  print("The Price Of your Item: ", 20*t)
+  Name = input("You allow Us to transacte the required money from your balance")
+  if (Name == yes):
+    print("Thanksyou For Buying HERE")
+    print("Your Blance is: ", i-20*t, "left")
+  
+else:
+  print("Thanks For Visiting Here")
+  
+if (item == chocolate):
+  t = int(input("How Many? "))
+  print("The Price Of your Item: ", 30*t)
+  Name = input("You allow Us to transacte the required money from your balance")
+  if (Name == yes):
+    print("Thanksyou For Buying HERE")
+    print("Your Blance is: ", i-30*t, "left")
+  
+else:
+  print("Thanks For Visiting Here")
+  
+if (item == biscuit):
+  t = int(input("How Many? "))
+  print("The Price Of your Item: ", 40*t)
+  Name = input("You allow Us to transacte the required money from your balance")
+  if (Name == yes):
+    print("Thanksyou For Buying HERE")
+    print("Your Blance is: ", i-40*t, "left")
+  
+else:
+  print("Thanks For Visiting Here")
+
+if (item == soda):
+  t = int(input("How Many? "))
+  print("The Price Of your Item: ", 10*t)
+  Name = input("You allow Us to transacte the required money from your balance")
+  if (Name == yes):
+    print("Thanksyou For Buying HERE")
+    print("Your Blance is: ", i-100*t, "left")
+  
+else:
+  print("Thanks For Visiting Here")
